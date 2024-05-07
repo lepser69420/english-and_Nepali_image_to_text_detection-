@@ -36,13 +36,7 @@ def classify_words(words):
 
 
 
-#### Image Detection
 
-import pytesseract
-from PIL import Image
-
-image_file= "R.png"
-img =Image.open(image_file)
 
 ocr_result = pytesseract.image_to_string(img)
 
